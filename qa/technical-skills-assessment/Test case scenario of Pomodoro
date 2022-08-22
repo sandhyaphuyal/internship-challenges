@@ -1,0 +1,30 @@
+Test Scenario of Pomodoro:
+
+User Interface Scenarios:
+1.	Verify if the buttons Start, Stop and Reset is placed in accurate position.
+2.	Verify if Notification box popup like as per requirement or not.
+3.	Verify if the text style, text size, text color are as per the specification.
+4.	Check the UI is responsive or not.
+5.	Check if the background color of the login page is as per the specification.
+6.	Check all the labels and text written on different remaining elements should be clearly visible.
+7.	Verify whether the Length of the burst at start is 25 minutes or not.
+8.	Verify whether the break counter is visible or not.
+
+Functional Scenarios:
+1.	Verify that as soon as timer starts, the very first burst starts automatically or not.
+2.	Check whether the buttons Start, Stop and Reset are clickable or not.
+3.	Check the behavior of system when Start button is clicked. 
+4.	Check the behavior of system when Reset button is clicked. 
+5.	Check the behavior of system when Stop button is clicked. 
+6.	Verify whether 30 sec before the burst their arise browser notification or not with proper notification message.
+7.	Verify whether after 30 sec the burst gets over or not.
+8.	Verify whether after that burst the break begins or not.
+9.	Verify after the timer reaches to 0s the current burst time, it switches to break tab duration of 5 minutes or not.
+10.	Verify after switch tab the timer starts counting or not.
+11.	Verify after that counting the notification box pop up or not with proper message.
+12.	Verify whether after the break is over, the timer switch to pomodoro or not.
+13.	After It returns back to pomodoro check whether timer starts counting or not.
+14.	After that break verify whether it pop up notification box with proper message or not.
+15.	Verify whether if switch to pomodoro again or not after the break is over.
+16.	Verify in 15 case, at this phase user move to pomodoro tab or not.
+17.	Verify whether the countdown begins or not without clicking start button.
